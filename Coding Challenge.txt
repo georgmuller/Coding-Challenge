@@ -1,0 +1,197 @@
+###Question 1
+
+x <- character(100)
+
+  
+for (i in 1:100) {
+
+
+if (i%%3 == 0 && i%%5 == 0) {
+x[i] = "FizzBuzz"
+}
+
+
+else if (i%%5 == 0) {
+x[i] = "Buzz"
+}
+
+
+else if (i%%3 == 0) {
+x[i] = "Fizz"
+}
+
+
+else {
+x[i] = i
+}
+
+}
+________________________________________________________________________________
+###Question 2
+
+Reverse_string <- function(i) {
+
+len <- length(i)
+
+max <- i[len]
+min <- i[1]
+
+y <- max:min
+
+return(y)
+
+}
+
+______________________________________________________________________________
+###Question 3
+
+Times_table <- function(x) {
+y <- c()
+
+for (i in 1:12) {
+
+y[i] <- i*x
+
+}
+
+return(y)
+
+}
+
+______________________________________________________________________________
+###Question 4
+
+Fibonacci <- function(x = 100) {
+y <- c()
+
+if (x == 1) {
+return(0)
+}
+
+else if (x == 2) {
+k <- c(0, 1)
+return(k)
+}
+
+else if (x > 2) {
+
+y[1] <- 0
+y[2] <- 1
+
+for (i in 3:x) {
+
+y[i] <- y[i-2] + y[i-1]
+
+}
+
+}
+
+return(y)
+
+}
+
+________________________________________________________________________
+###Question 5
+
+absolute <- abs(i - j)
+
+if (absolute <= k) {
+print("True")
+exit()
+}
+
+} else  {
+break
+}
+
+}
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+num <- c(0, 1, 7, 9, 8, 1, 10, 4, 2, 13)
+
+k <- 3
+
+Close_num <- function(num, k) {
+
+len <- length(num)
+
+for (i in 1:len) {
+
+for (j in 2:len) {
+
+if (num[i] == num[j]) {
+break
+
+} 
+
+break
+
+}
+
+break
+
+}
+
+i
+j
+
+}
+
+Close_num(num, k)
+
+
+
+
+
+
+
+
+num <- c(0, 1, 7, 9, 8, 1, 10, 4, 2, 13)
+
+k <- 3
+
+Close_num <- function(num, k) {
+len <- length(num)
+x <- c()
+j <- 1
+
+for (i in 2:len) {
+
+if (num[j] == num[i]) {
+
+absolute <- abs(j
+
+
+}
+
+
+return(x)
+
+}
+
+Close_num(num, k)
+
+
+____________________________________________________________________________________
+###Question 6
+
+
+
+
+
